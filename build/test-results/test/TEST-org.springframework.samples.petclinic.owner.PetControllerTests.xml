@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.owner.PetControllerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-02-16T13:35:36" hostname="ip-172-31-31-187" time="0.311">
+  <properties/>
+  <testcase name="testProcessCreationFormSuccess()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.04"/>
+  <testcase name="testProcessUpdateFormSuccess()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.016"/>
+  <testcase name="testInitUpdateForm()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.12"/>
+  <testcase name="testInitCreationForm()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.027"/>
+  <testcase name="testProcessCreationFormHasErrors()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.037"/>
+  <testcase name="testProcessUpdateFormHasErrors()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.041"/>
+  <system-out><![CDATA[2023-02-16T13:35:35.733Z  INFO 15740 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-16T13:35:35.740Z  INFO 15740 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 3.0.1
+
+
+2023-02-16T13:35:35.807Z  INFO 15740 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : Starting PetControllerTests using Java 17.0.5 with PID 15740 (started by root in /root/java-app/spring-petclinic)
+2023-02-16T13:35:35.812Z  INFO 15740 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : No active profile set, falling back to 1 default profile: "default"
+2023-02-16T13:35:36.307Z  INFO 15740 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-02-16T13:35:36.311Z  INFO 15740 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-02-16T13:35:36.321Z  INFO 15740 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-02-16T13:35:36.334Z  INFO 15740 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : Started PetControllerTests in 0.583 seconds (process running for 21.342)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
